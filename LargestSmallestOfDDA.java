@@ -50,7 +50,7 @@ class LargestSmallestOfDDA
             }
             System.out.println("Largest:"+largest+","+"found at:"+rmax+","+columnmax);
             System.out.println("Smallest:"+smallest+","+"found at:"+rmin+","+columnmin);
-            //sorting
+            //storing DDA into SDA
             int temp[]=new int[m*n];
             int k=0;
             for(int i=0;i<m;i++)
