@@ -11,7 +11,7 @@ class LargestSmallestOfDDA
         if((m>2 && m<20) && (n>2 &&n<20))
         {
             int a[][]=new int[m][n];
-            System.out.println("Elements input:");
+            System.out.println("Input the elements:");
             for(int i=0;i<m;i++)
             {
                 for(int j=0;j<n;j++)
