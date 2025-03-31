@@ -39,8 +39,8 @@ class Anagrams
         s1=sc.nextLine();
         System.out.println("Enter the 2nd String:");
         s2=sc.nextLine();
-        s1=bubsort(s1);
-        s2=bubsort(s2);
+        s1=bubsort(s1).toLowerCase();
+        s2=bubsort(s2).toLowerCase();
         if(s1.equalsIgnoreCase(s2))
         {
             System.out.println("The two strings are Anagrams");
